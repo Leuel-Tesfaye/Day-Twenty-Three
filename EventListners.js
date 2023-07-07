@@ -56,7 +56,16 @@ const add = document.querySelector('.sum')
 
 let sum 
 add.addEventListener('click', e =>{
-    sum = numOne.value + numTwo.value
+    sum = Number(numOne.value )+ Number(numTwo.value)
     alert(`The sum of the numbers is: ${sum}`)
     console.log(sum)
 })
+
+const input = document.querySelector('#input')
+const p = document.querySelector('p')
+
+input.addEventListener('input' , e =>{
+    p.textContent = e.target.value
+})
+
+=
