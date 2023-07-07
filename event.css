@@ -14,3 +14,12 @@
     margin: 10px;
 } 
 
+.container button {
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-color: aliceblue;
+    font-weight: bold;
+}
